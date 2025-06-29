@@ -28,7 +28,7 @@ function App() {
       );
     }
 
-    return (
+  return (
       <div>
         <h1>Preenchedor de Formulários de TCC</h1>
         <p>Selecione o formulário que deseja preencher:</p>
@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       {renderContent()}
-    </div>
+      </div>
   )
 }
 

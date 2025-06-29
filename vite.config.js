@@ -6,4 +6,7 @@ export default defineConfig({
   base: '/extra-2025a-GabrielUFSM/',
   plugins: [react()],
   publicDir: 'frontend/public',
+  build: {
+    outDir: 'docs',
+  },
 })
