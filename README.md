@@ -9,7 +9,8 @@
 > 6. Entregue este README.md dentro da pasta raiz do repositório de entrega.
 > Opcional: é permitido alterar a formatação do README, desde que sejam mantidas todas as informações solicitadas (tudo bem adicionar mais informações)
 
-![Substitua a imagem ao lado por um screenshot do seu projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto")
+<img src="Captura de tela 2025-06-29 134803.png" alt="desktop preview" width="720"/>
+<img src="Captura de tela 2025-06-29 134830.png" alt="desktop preview" width="720"/>
 
 
 Acesso: https://elc1090.github.io/extra-2025a-GabrielUFSM/
@@ -20,6 +21,8 @@ Gabriel Bisognin Moro | Ciência da Computação
 
 ### Produto
 O objetivo desta aplicação é facilitar o preenchimento de documentos acadêmicos da UFSM que são originalmente distribuídos como formulários em PDF. A aplicação oferece uma interface web onde o usuário pode inserir os dados necessários para cada documento. Após o preenchimento, a ferramenta gera um novo arquivo PDF, visualmente idêntico ao original, mas com os dados do usuário já inseridos nos campos corretos, pronto para ser salvo ou impresso. O objetivo foi gerar o documento final o mais fiel possível ao original.
+
+<img src="Captura de tela 2025-06-29 135036.png" alt="desktop preview" width="720"/>
 
 ### Desenvolvimento
 O desenvolvimento iniciou com a criação de um projeto React utilizando Vite. A abordagem envolve recriar o documento do zero usando a biblioteca pdf-lib, este método envolve o trabalho de desenhar cada elemento do formulário — cabeçalhos, parágrafos de texto estático, linhas, imagens e os dados dinâmicos do usuário — em uma página em branco.   
